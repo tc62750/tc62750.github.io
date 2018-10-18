@@ -1,0 +1,15 @@
+.logo{
+    border: 0.5px black solid;
+    height: 70%;
+    width: 100%;
+}
+nav{
+    border: 0.5px black solid;
+    height: 30%;
+}
+.nav-item{
+    width: 33.33%;
+}
+#subnav{
+    width: 100%;
+}

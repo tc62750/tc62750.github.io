@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,39 +10,39 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/index.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    <header style="height: 30vh;border: 0.5px black solid;">
-        <div class="logo">LOGO</div>
+    <header style="height: 20vh;border: 0.5px black solid;">
+        <div class="logo"><img class="logo_img" src="image/logo.png" alt="古物保存維護網"><div style="width: 4%;height: 60%;cursor: pointer;z-index: 3;position: relative; top: -76%; left: 88%; "></div></div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <ul class="navbar-nav mr-auto"id="subnav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="subpage/subindex.html" target="iframe_main">首頁<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      下拉式選單
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">1</a>
-                      <a class="dropdown-item" href="#">2</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      下拉式選單
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">1</a>
-                      <a class="dropdown-item" href="#">2</a>
-                    </div>
-                </li>
-            </ul>
+            <span style="width:25%;"></span>
+            <span class="nav_link">
+                <a class="nav-link" href="subpage/subindex.html" target="iframe_main" style="color: white;">關於本平台</a>
+            </span>
+            <span class="line">|</span>
+            <!--<span class="nav_link">
+                <a class="nav-link" href="subpage/NewMessage.html" target="iframe_main" style="color: white;">最新消息</a>
+            </span>
+            <span class="line">|</span>-->
+            <span class="nav_link">
+                <a class="nav-link" href="subpage/CounselingCenter.html" target="iframe_main" style="color: white;">輔導中心</a>
+            </span>
+            <span class="line">|</span>
+            <span class="nav_link">
+                <a class="nav-link" href="https://nsmh.boch.gov.tw/zh-hant/documents" target="_blank" style="color: white;">法規與相關資訊</a>
+            </span>
+            <span class="line">|</span>
+            <span class="nav_link">
+                <a class="nav-link" href="subpage/contact.html" target="iframe_main" style="color: white;">聯絡我們</a>
+            </span>
+
         </nav>
     </header>
-    <iframe src="subpage/subindex.html" name="iframe_main"style="height: 70vh;width:100%;border: 0.5px black solid;">
+    <iframe src="subpage/subindex.html" name="iframe_main" style="height: 79vh;width:100%; margin: 0px; padding: 0%;">
 
     </iframe>
 </body>
+
 </html>

@@ -1,15 +1,35 @@
 .logo{
     border: 0.5px black solid;
-    height: 70%;
+    height: 65%;
     width: 100%;
+    
+}
+.logo_img{
+    height:100%;
+    width: 100%;
+    object-fit:cover;
+    
 }
 nav{
     border: 0.5px black solid;
-    height: 30%;
+    height: 35%;
+    color: white;
 }
 .nav-item{
     width: 33.33%;
 }
 #subnav{
     width: 100%;
+}
+body{
+    font-family: "微軟正黑體","標楷體";
+}
+.line{
+    font-size: 20px;
+    
+}
+.nav_link{
+    width: 13%;
+    
+    text-align: center;
 }
